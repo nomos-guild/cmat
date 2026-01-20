@@ -1,0 +1,171 @@
+{
+  "hero": {
+    "title": "CMAT",
+    "subtitle": "Cardano Multi Asset Treasury"
+  },
+  "about": {
+    "intro": "Cardano's on-chain treasury (part of the Voltaire governance era) currently holds funds in ADA only. However, there is growing interest in allowing the treasury to support multiple assets. This initiative aims to outline the motivation and objectives as well as the planned steps ahead towards the establishment of a Cardano multi asset treasury.",
+    "cards": [
+      {
+        "title": "Purpose",
+        "content": "To improve Treasury sustainability by introducing a Multi Asset Treasury, allowing the Cardano Treasury to not only receive and distribute Ada but to handle a wide range of assets.",
+        "blockPosition": "top"
+      },
+      {
+        "title": "Features",
+        "content": "CMAT will introduce specific features which ensure a secure and stable management of treasury assets, while staying fully compatible to Cardano onchain governance (CIP1694)",
+        "blockPosition": "middle"
+      },
+      {
+        "title": "Benefits",
+        "content": "By implementing CMAT, the Treasury enables a wide range of economic possibilities and yet untapped opportunities",
+        "blockPosition": "bottom"
+      }
+    ]
+  },
+  "roadmap": [
+    {
+      "name": "IDEATION",
+      "description": "Initial thoughts and documents to introduce the concept of a multi asset treasury.",
+      "tasks": [
+        {
+          "title": "Draft & Publish CMAT Forum post",
+          "description": "Draft & publish an initial CMAT introduction post on the Cardano Forum",
+          "status": "done",
+          "assignees": [
+            "Hinson",
+            "Felix"
+          ],
+          "date": "September",
+          "links": [
+            {
+              "label": "Draft",
+              "url": "https://docs.google.com/document/d/1SCxDwppfsLyLpT-Rt5lmCQI04fP_dlwsVq2_jOBldm8/edit?tab=t.0"
+            },
+            {
+              "label": "Forum",
+              "url": "https://forum.cardano.org/t/cardano-multi-asset-treasury-cmat/149984"
+            }
+          ],
+          "additionalContent": "<h4>Context & Rationale</h4><p>This forum post serves as the initial public introduction to the Cardano Multi-Asset Treasury (CMAT) initiative, providing the community with background information and the motivation behind the proposal.</p><h4>Key Objectives</h4><ul><li>Raise awareness about the limitations of the current ADA-only treasury</li><li>Present the benefits of multi-asset treasury support</li><li>Gather community feedback and concerns</li><li>Build consensus around the initiative</li></ul><h4>Community Response</h4><p>The post received significant engagement from the Cardano community, with constructive feedback and questions that helped shape the subsequent CPS development.</p>"
+        },
+        {
+          "title": "Draft & Publish CMAT CPS",
+          "description": "Draft & publish the initial CPS (Cardano Problem Statement)",
+          "status": "done",
+          "assignees": [
+            "Hinson",
+            "Felix",
+            "Nicolas"
+          ],
+          "date": "October",
+          "links": [
+            {
+              "label": "Draft",
+              "url": "https://hackmd.io/@Mesh-Team/BkfaE1Z0ge"
+            },
+            {
+              "label": "Github",
+              "url": "https://github.com/cardano-foundation/CIPs/pull/1103"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DESIGN",
+      "description": "Online and offline events to share ideas, get feedback and insights to design initial concepts.",
+      "tasks": [
+        {
+          "title": "Ambassador CMAT Session",
+          "description": "Prepare and host a CMAT session at the Cardano Ambassadors workshop",
+          "status": "planned",
+          "assignees": [
+            "Hinson",
+            "Felix"
+          ],
+          "date": "November 8",
+          "links": [
+            {
+              "label": "Event",
+              "url": "https://ambassador-workshop.netlify.app/agenda/"
+            }
+          ]
+        },
+        {
+          "title": "Cardano Summit Workshop",
+          "description": "Prepare and host a CMAT workshop at the Cardano Summit Day0 Event",
+          "status": "planned",
+          "assignees": [
+            "Hinson",
+            "Felix",
+            "Nicolas"
+          ],
+          "date": "November 11",
+          "links": [
+            {
+              "label": "Event",
+              "url": "https://luma.com/geuyhoq1"
+            }
+          ]
+        },
+        {
+          "title": "Cardano Summit Roundtable",
+          "description": "Prepare and host a CMAT Roundtable discussion on Summit Day0 Event",
+          "status": "planned",
+          "assignees": [
+            "Hinson",
+            "Nicolas",
+            "Sam",
+            "Yogi"
+          ],
+          "date": "November 11"
+        },
+        {
+          "title": "CPS becomes CIP",
+          "description": "Draft & submit the initial CMAT CIP (Cardano Improvement Proposal) based on the initial CMAT CPS (Cardano Problem Statement)",
+          "status": "planned",
+          "assignees": [
+            "Hinson",
+            "Felix",
+            "Nicolas"
+          ],
+          "date": "December"
+        }
+      ]
+    },
+    {
+      "name": "IMPLEMENTATION",
+      "description": "Respective governance actions to propose the implementation of the multi asset treasury on all required layers.",
+      "tasks": [
+        {
+          "title": "Submit CMAT Info Action",
+          "description": "Submit an info action to introduce CMAT CIP to voters",
+          "status": "upcoming",
+          "assignees": [
+            "Hinson"
+          ],
+          "date": "January"
+        },
+        {
+          "title": "Submit CMAT Constitution updates",
+          "description": "Submit a \"Update to the constitution\" gov action according to CMAT requirements",
+          "status": "upcoming",
+          "assignees": [
+            "Hinson"
+          ],
+          "date": "January"
+        },
+        {
+          "title": "Submit CMAT Hard Fork Initiation",
+          "description": "Submit a \"Hard Fork Initiation\" gov action to initiate the CMAT Hard Fork",
+          "status": "upcoming",
+          "assignees": [
+            "Hinson"
+          ],
+          "date": "January"
+        }
+      ]
+    }
+  ]
+}
