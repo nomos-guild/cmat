@@ -79,7 +79,7 @@
         {
           "title": "Ambassador CMAT Session",
           "description": "Prepare and host a CMAT session at the Cardano Ambassadors workshop",
-          "status": "planned",
+          "status": "done",
           "assignees": [
             "Hinson",
             "Felix"
@@ -95,7 +95,7 @@
         {
           "title": "Cardano Summit Workshop",
           "description": "Prepare and host a CMAT workshop at the Cardano Summit Day0 Event",
-          "status": "planned",
+          "status": "done",
           "assignees": [
             "Hinson",
             "Felix",
@@ -112,7 +112,7 @@
         {
           "title": "Cardano Summit Roundtable",
           "description": "Prepare and host a CMAT Roundtable discussion on Summit Day0 Event",
-          "status": "planned",
+          "status": "done",
           "assignees": [
             "Hinson",
             "Nicolas",
@@ -130,7 +130,7 @@
             "Felix",
             "Nicolas"
           ],
-          "date": "December"
+          "date": "Q1 2026"
         }
       ]
     },
